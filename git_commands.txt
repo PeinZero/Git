@@ -1,0 +1,28 @@
+git config --global user.name 'PeinZero'
+git config --global user.email 'mahadzx@gmail.com'
+
+// initialise git repo
+git init
+
+// add file that needs to be commited
+git add filename[s]
+//add all file with specified extname in the dir except the ones in .gitignore
+git add *.[extname] 
+// add everthing except the ones in .gitignore
+git add .
+
+
+// tell that will be commited and that will not be
+git status
+
+// commit all the changes
+git commit -m [message]
+
+//create a branch
+git branch [branchname]
+
+// switch between branches
+git checkout  [branchname]
+
+// merge branch changes to master
+git merge -m [message]
