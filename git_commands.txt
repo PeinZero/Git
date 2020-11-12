@@ -26,3 +26,7 @@ git checkout  [branchname]
 
 // merge branch changes to master
 git merge -m [message]
+
+#: when master and origin/master has been diverged
+git reset --hard origin/master
+
